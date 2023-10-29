@@ -130,10 +130,39 @@ img {
 
 
  /* tablet version (max-width: 768px) */
+
  @media all and (max-width: 768px)  {
 
     .container  {
         width: 100%;
+    }
+
+ }
+
+ /* mobile version (max-width: 480px) */
+
+ @media all and (max-width: 480px)  {
+
+    .row    {
+        display: block;
+    }
+
+    .lessons .col,
+    .steps .col,
+    .why-us .col-left,
+    .why-us .col-right      {
+        width: 80%;
+        margin: 4rem auto;
+    }
+
+    .steps  {
+        margin: 0;
+    }
+
+    .why-us {
+        background: rgb(34, 34, 34);
+        padding: 3rem 0;
+        margin-bottom: 0;
     }
 
  }
